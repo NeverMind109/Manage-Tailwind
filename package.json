@@ -1,0 +1,24 @@
+{
+  "name": "manage-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeverMind109/Manage-Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeverMind109/Manage-Tailwind/issues"
+  },
+  "homepage": "https://github.com/NeverMind109/Manage-Tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
